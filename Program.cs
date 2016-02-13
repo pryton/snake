@@ -25,7 +25,7 @@ namespace ConsoleApplication1
             Console.ReadLine();
 
         }
-        static void Draw(int x, int y, int sym)
+        static void Draw(int x, int y, char sym)
         {
             Console.SetCursorPosition( x, y );
             Console.Write( sym );
